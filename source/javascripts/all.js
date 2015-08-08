@@ -8,5 +8,6 @@
 //= require handlebars
 //= require d3graph
 //= require stacked
+//= require map
 //= require_tree .
 
