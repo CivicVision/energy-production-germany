@@ -1,0 +1,18 @@
+body
+  background: #fff
+  font-family: sans-serif
+  font-size: 12px
+
+.content
+  @include outer-container()
+  .text
+    @include span-columns(3)
+    padding: 1em 0 0 0
+
+.ticks path
+  stroke: none
+.axis
+  shape-rendering: crispEdges
+  fill: none
+  stroke: #fff
+  opacity: 0.3

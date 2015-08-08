@@ -1,0 +1,148 @@
+{
+  "width": 500,
+  "height": 200,
+  "padding": {"top": 10, "left": 30, "bottom": 30, "right": 10},
+  "signals": [
+    {
+      "name": "tooltip",
+      "init": {},
+      "streams": [
+        {"type": "rect:mouseover", "expr": "datum"},
+        {"type": "rect:mouseout", "expr": "{}"}
+      ]
+    },
+    {
+      "name": "mousepositionY",
+      "init": 0,
+      "streams": [
+        {"type": "mousemove", "expr": "eventY()"}
+      ]
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "format": { "type": "csv","parse": {"prozent":"number"} },
+      "url": "data/percentage_region_melt.csv"
+    }
+  ],
+  "predicates": [
+    {
+      "name": "tooltip", "type": "==",
+      "operands": [{"signal": "tooltip._id"}, {"arg": "id"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "ordinal",
+      "range": "width",
+      "domain": {"data": "table", "field": "BL"}
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "range": "height",
+      "nice": true,
+      "domain": [0,1]
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "range": [
+        "#07FC79", "#398C60", "#C96D00", "#fff", "#C66B50", "#1F7346", "#fff", "#AC466C", "#fff", "#598298", "#fff", "#FF8E07", "#0081C5", "#FFBC07", "#fff", "#fff", "#160C00", "#fff", "#fff", "#14AAFB", "#fff"
+      ],
+      "domain": {"data": "table", "field": "art"}
+    }
+  ],
+  "axes": [
+    {
+      "type": "y",
+      "scale": "y",
+      "ticks": 4,
+      "properties": {
+        "labels": {"text": {"template": "{{datum.data|number:'.0%'}}"}}
+      }
+    },
+    {"type": "x", "scale": "x"}
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {
+        "data": "table",
+        "transform": [
+          {"type": "stack", "groupby": ["BL"], "sortby": ["art"], "field": "prozent"}
+        ]
+      },
+      "properties": {
+        "enter": {
+          "x": {"scale": "x", "field": "BL"},
+          "width": {"scale": "x", "band": true, "offset": -1},
+          "y": {"scale": "y", "field": "layout_start"},
+          "y2": {"scale": "y", "field": "layout_end"},
+          "fill": {"scale": "color", "field": "art"}
+        },
+        "update": {
+          "fillOpacity": {"value": 1}
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.5}
+        }
+      }
+    },
+    {
+      "type": "group",
+      "from": {"data": "tooltip"},
+      "properties": {
+        "update": {
+          "x": {"scale": "x", "signal": "tooltip.BL", "offset": 20},
+          "y": {"signal": "mousepositionY", "offset": 5},
+          "width": {"value": 200},
+          "height": {"value": 35},
+          "fill": {"value": "#fff"},
+          "stroke": {"value": "#aaa"},
+          "strokeWidth": {"value": 0.5},
+          "opacity": {
+            "rule": [
+              {
+                "predicate": {
+                  "name": "tooltip",
+                  "id": {"value": null}
+                },
+                "value": 0
+              },
+              {"value": 1}
+
+            ]
+          }
+        }
+      },
+      "marks": [
+        {
+        "type": "text",
+        "properties": {
+          "update": {
+            "x": {"value": 6},
+            "y": {"value": 14},
+            "text": {
+              "rule": [
+                {
+                  "predicate": {
+                    "name": "tooltip",
+                    "id": {"value": null}
+                  },
+                  "template": ""
+                },
+                {"template": "{{tooltip.art}}: {{tooltip.prozent|number:'.1%'}}"}
+              ]
+            },
+            "fill": {"value": "black"},
+            "fontWeight": {"value": "bold"}
+          }
+        }
+      }
+      ]
+    }
+  ]
+}
