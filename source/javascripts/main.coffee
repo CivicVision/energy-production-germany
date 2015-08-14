@@ -29,12 +29,12 @@ d3.json("data/deu.topo.json", (topojson) ->
       energyTypes = for type, color of energy
         type
       dataMax = d3.max(data.features, (d) ->
-        d.properties.netto_nennleistung_elektrische_wirkleistung_in_mw
+        Math.sqrt(d.properties.netto_nennleistung_elektrische_wirkleistung_in_mw / Math.PI )
       )
-      plantScale = d3.scale.linear().domain([50, dataMax]).range([2,20])
+      plantScale = d3.scale.linear().domain([0, dataMax]).range([1,20])
       colorScale = d3.scale.ordinal().domain(energyTypes).range(colors)
       radius = (d) ->
-        plantScale(d.properties.netto_nennleistung_elektrische_wirkleistung_in_mw)
+        plantScale(Math.sqrt(d.properties.netto_nennleistung_elektrische_wirkleistung_in_mw / Math.PI ))
       fill = (d) ->
         colorScale(d.properties.energietrager)
 
