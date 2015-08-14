@@ -10,6 +10,8 @@
     0
   featureFill = (d) ->
     "#000"
+  featureClass = (d) ->
+    "feature"
 
   mapTooltipHtml = d3.select("#map-popup").html()
   mapTooltip = _.template(mapTooltipHtml)
@@ -38,6 +40,7 @@
         features
         .attr('d', featurePath)
         .attr('fill', featureFill)
+        .attr('class', (d) -> "features #{featureClass(d)}")
 
   chart.height = (value) ->
     unless arguments.length
@@ -83,5 +86,10 @@
     unless arguments.length
       return featureFill
     featureFill = value
+    chart
+  chart.featureClass = (value) ->
+    unless arguments.length
+      return featureClass
+    featureClass = value
     chart
   chart
