@@ -1,0 +1,34 @@
+{
+  "top5": [
+    {
+      "identifier": "solare-strahlungsenergie",
+      "headline": "Solarenergie",
+      "name": "Solaranlagen"
+    },
+    {
+      "identifier": "windenergie-onshore-anlage",
+      "headline": "Windenergie",
+      "name": "Windräder"
+    },
+    {
+      "identifier": "erdgas",
+      "headline": "Erdgas",
+      "name": "Erdgas Anlagen"
+    },
+    {
+      "identifier": "steinkohle",
+      "headline": "Steinkohle",
+      "name": "Steinkohle Anlagen"
+    },
+    {
+      "identifier": "braunkohle",
+      "headline": "Braunkohle",
+      "name": "Braunkohle Anlagen"
+    },
+    {
+      "identifier": "kernenergie",
+      "headline": "Kernenergie",
+      "name": "Atommeiler"
+    }
+  ]
+}

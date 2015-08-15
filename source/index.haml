@@ -9,6 +9,9 @@ title:
   #map-germany
 
   #stacked-typ
+  - data.energy.top5.each do |e|
+    = partial "partials/single-production.html", locals: { production: e }
+
 
 %script(id="map-popup" type="text/x-handlebars-template")
   <div class='title'>

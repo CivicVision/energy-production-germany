@@ -1,0 +1,11 @@
+.single-production(id= "#{production.identifier}")
+  .map(id= "map-germany-#{production.identifier}")
+  .explanation
+    %h3= production.headline
+    %p
+      Es gibt
+      %span.count
+      = "#{production.name} in Deutschland."
+      Diese erzeugen
+      %span.prozent
+      der deutschen Energieproduktion.
