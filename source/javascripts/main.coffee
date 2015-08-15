@@ -30,6 +30,15 @@ d3.json("data/stacked_typ.json", (spec) ->
       ).update()
     return
 )
+d3.json("data/overall-short.json", (spec) ->
+  spec.width = d3.select('#overall-production').node().getBoundingClientRect()['width']
+  vg.parse.spec spec, (chart) ->
+    view = chart(
+      el: '#overall-production'
+      renderer: 'svg'
+      ).update()
+    return
+)
 
 d3.json("data/deu.topo.json", (topojson) ->
   d3.json "data/plants.geojson", (data) ->
