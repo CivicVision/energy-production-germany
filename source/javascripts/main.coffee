@@ -15,6 +15,7 @@ d3.csv("data/percentage_region.csv", (data) ->
   chart.sortBy('Steinkohle')
 )
 d3.json("data/stacked.json", (spec) ->
+  spec.width = d3.select('#stacked').node().getBoundingClientRect()['width']
   vg.parse.spec spec, (chart) ->
     view = chart(
       el: '#stacked'
@@ -23,6 +24,7 @@ d3.json("data/stacked.json", (spec) ->
     return
 )
 d3.json("data/stacked_typ.json", (spec) ->
+  spec.width = d3.select('#stacked-typ').node().getBoundingClientRect()['width']
   vg.parse.spec spec, (chart) ->
     view = chart(
       el: '#stacked-typ'
