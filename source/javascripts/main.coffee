@@ -56,8 +56,10 @@ d3.json("data/deu.topo.json", (topojson) ->
         plantScale(Math.sqrt(d.properties.netto_nennleistung_elektrische_wirkleistung_in_mw / Math.PI ))
       fill = (d) ->
         colorScale(d.properties.energietrager)
+      typeClass = (d) ->
+        slugify(d.properties.energietrager)
 
-      mapGermany = @map().center([9.7,50.8]).scale(3000).height(650).overlayFeatures(data.features).overlayFeatureRadius(radius).featureFill(fill)
+      mapGermany = @map().center([9.7,51.4]).scale(3200).height(700).overlayFeatures(data.features).overlayFeatureRadius(radius).featureFill(fill).featureClass(typeClass)
       d3.select("#map-germany").datum(topojson).call(mapGermany)
 
       d3.csv "data/gesamt_produktion.csv", (gesamt) ->
