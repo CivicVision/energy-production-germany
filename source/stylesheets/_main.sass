@@ -1,13 +1,14 @@
 body
   background: #fff
   font-family: sans-serif
-  font-size: 12px
 
 .content
   @include outer-container()
   .text
     @include span-columns(3)
     padding: 1em 0 0 0
+#map-germany
+  text-align: center
 
 .ticks path
   stroke: none
@@ -16,10 +17,24 @@ body
   fill: none
   stroke: #fff
   opacity: 0.3
-#map-germany
+.map
   .country
-    fill: #ddd
+    fill: #dedede
     stroke: #fff
   .features
-    fill-opacity: 0.7
+    fill-opacity: 0.6
     stroke: none
+
+#overall-production
+  @include span-columns(12)
+
+.single-production
+  @include span-columns(12)
+  margin-top: 2em
+  .map
+    @include span-columns(6 of 12)
+  .explanation
+    @include span-columns(6 of 12)
+    margin-top: 2em
+    .count,.prozent
+      font-weight: bold

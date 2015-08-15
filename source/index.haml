@@ -2,13 +2,17 @@
 title: 
 ---
 .content
-  #chart
-  %h1 Produktion per BL (Verteilung per BL)
+  %h1 Energieproduktion in Deutschland
+  %h2 Wo wird welche Energie in Deutschland produziert.
+  %p Seit dem Ausstieg aus der Atomenergie ist der prozentuale Anteil der Solar- und Windenergie deutlich gestiegen. Die 8 der ehemals x Meiler in Deutschland haben nur noch einen Anteil von 6% an der deutschen Energieproduktion
+  %h3 Produktionsvolumen nach Energietyp in Megawatt.
+  #map-germany.map
   #overall-production
+  %h3 Produktion in den Bundesländern
+  %h4 Verteilung pro Bundesland
   #stacked
-  %h1 Produktion per BL (Prozent an der Gesamtproduktion)
-  #map-germany
 
+  %h3 Produktion per BL (Prozent an der Gesamtproduktion)
   #stacked-typ
   - data.energy.top5.each do |e|
     = partial "partials/single-production.html", locals: { production: e }
