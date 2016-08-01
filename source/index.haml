@@ -16,12 +16,16 @@ title:
   #stacked-typ
   - data.energy.top5.each do |e|
     = partial "partials/single-production.html", locals: { production: e }
-
-
+  #bundesland-multiples
+#map-tooltip
 %script(id="map-popup" type="text/x-handlebars-template")
   <div class='title'>
   <h4>{{name}}</h4>
   </div>
   <div class='details'>
-  <h5>{{dataCount}}</h5>
+  Gesamtenergieproduktion: {{gesamt}} mWh
+  <ul class="types">
+  {{#energy}}
+  <li>{{Typ}}, {{Produktionsvolumen}} mWh</li>
+  {{/energy}}
   </div>
