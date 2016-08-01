@@ -1,0 +1,170 @@
+{
+  "width": 600,
+  "height": 20,
+  "padding": {"top": 10, "left": 10, "bottom": 30, "right": 30},
+  "signals": [
+    {
+      "name": "tooltip",
+      "init": {},
+      "streams": [
+        {"type": "rect:mouseover", "expr": "datum"},
+        {"type": "rect:mouseout", "expr": "{}"}
+      ]
+    },
+    {
+      "name": "mousepositionY",
+      "init": 0,
+      "streams": [
+        {"type": "mousemove", "expr": "eventY()"}
+      ]
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "format": { "type": "csv","parse": {"Produktionsvolumen": "number"} },
+      "url": "data/gesamt_produktion.csv",
+      "transform": [
+        {"type": "sort", "by": "Produktionsvolumen"}
+      ]
+    },
+    {
+      "name":"sorted",
+      "source": "table",
+      "transform": [
+        {"type": "sort", "by": "Typ"}
+      ]
+    },
+    {
+      "name": "sum",
+      "source": "table",
+      "transform": [
+        {
+          "type": "aggregate",
+          "summarize": [{"field": "Produktionsvolumen", "ops": ["sum"], "as": ["s"]}]
+        }
+      ]
+    }
+  ],
+  "predicates": [
+    {
+      "name": "tooltip", "type": "==",
+      "operands": [{"signal": "tooltip._id"}, {"arg": "id"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "y",
+      "type": "ordinal",
+      "range": "height",
+      "domain": {
+        "data": "table",
+        "field": "Typ",
+        "sort": {
+          "field": "Produktionsvolumen",
+          "op": "max",
+          "order": "desc"
+        }
+      }
+    },
+    {
+      "name": "x",
+      "type": "linear",
+      "range": "width",
+      "nice": true,
+      "domain": {"data": "sum", "field": "s"}
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "range": [
+        "#07FC79", "#398C60", "#C96D00", "#fff", "#C66B50", "#1F7346", "#fff", "#AC466C", "#fff", "#598298", "#fff", "#FF8E07", "#0081C5", "#FFBC07", "#fff", "#fff", "#160C00", "#fff", "#fff", "#14AAFB", "#fff"
+      ],
+      "domain": {"data": "sorted", "field": "Typ"}
+    }
+  ],
+  "axes": [
+    {
+      "type": "x",
+      "scale": "x"
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {
+        "data": "table",
+        "transform": [
+          {"type": "stack", "groupby": ["typ"], "sortby": ["Produktionsvolumen"], "field": "Produktionsvolumen"}
+        ]
+      },
+      "properties": {
+        "enter": {
+          "x2": {"scale": "x", "field": "layout_end"},
+          "x": {"scale": "x", "field": "layout_start"},
+          "height": {"value": 20 },
+          "fill": {"scale": "color", "field": "Typ"}
+        },
+        "update": {
+          "fillOpacity": {"value": 1}
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.5}
+        }
+      }
+    },
+    {
+      "type": "group",
+      "from": {"data": "tooltip"},
+      "properties": {
+        "update": {
+          "x": {"scale": "x", "signal": "tooltip.Typ", "offset": 20},
+          "y": {"signal": "mousepositionY", "offset": 5},
+          "width": {"value": 200},
+          "height": {"value": 35},
+          "fill": {"value": "#fff"},
+          "stroke": {"value": "#aaa"},
+          "strokeWidth": {"value": 0.5},
+          "opacity": {
+            "rule": [
+              {
+                "predicate": {
+                  "name": "tooltip",
+                  "id": {"value": null}
+                },
+                "value": 0
+              },
+              {"value": 1}
+
+            ]
+          }
+        }
+      },
+      "marks": [
+        {
+        "type": "text",
+        "properties": {
+          "update": {
+            "x": {"value": 6},
+            "y": {"value": 14},
+            "text": {
+              "rule": [
+                {
+                  "predicate": {
+                    "name": "tooltip",
+                    "id": {"value": null}
+                  },
+                  "template": ""
+                },
+                {"template": "{{tooltip.Typ}}: {{tooltip.Produktionsvolumen}} mWh"}
+              ]
+            },
+            "fill": {"value": "black"},
+            "fontWeight": {"value": "bold"}
+          }
+        }
+      }
+      ]
+    }
+  ]
+}

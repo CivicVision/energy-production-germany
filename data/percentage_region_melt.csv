@@ -1,0 +1,460 @@
+"","BL","art","prozent"
+"1","BW","Abfall",0.00503105908927563
+"2","BY","Abfall",0.00766036655211913
+"3","BE","Abfall",0.0142011834319527
+"4","BB","Abfall",0.00791946308724832
+"5","HB","Abfall",0.0571967316153363
+"6","HH","Abfall",0.0179372197309417
+"7","HE","Abfall",0.0150583896742471
+"8","MV","Abfall",0.00325857772666283
+"9","NI","Abfall",0.00326427576601671
+"10","NW","Abfall",0.0117839142471782
+"11","RP","Abfall",0.0146932952924394
+"12","SL","Abfall",0.00875
+"13","SN","Abfall",0.00173913043478261
+"14","ST","Abfall",0.0203609949372661
+"15","SH","Abfall",0.00168883259446907
+"16","TH","Abfall",0.00220839188917888
+"17","Summe","Abfall",0.00859380941516465
+"18","BW","Biomasse",0.0408645207659531
+"19","BY","Biomasse",0.0463559564719359
+"20","BE","Biomasse",0.0134122287968442
+"21","BB","Biomasse",0.0288590604026846
+"22","HB","Biomasse",0.00251414204902577
+"23","HH","Biomasse",0.0373692077727952
+"24","HE","Biomasse",0.0396435156730178
+"25","MV","Biomasse",0.0634464251485528
+"26","NI","Biomasse",0.0551009749303621
+"27","NW","Biomasse",0.0170369844537517
+"28","RP","Biomasse",0.0235378031383738
+"29","SL","Biomasse",0.00625
+"30","SN","Biomasse",0.0306521739130435
+"31","ST","Biomasse",0.0453444860224521
+"32","SH","Biomasse",0.0360987967067764
+"33","TH","Biomasse",0.0491869102589841
+"34","Summe","Biomasse",0.0338631581615839
+"35","BW","Braunkohle",0
+"36","BY","Braunkohle",0
+"37","BE","Braunkohle",0.0646942800788955
+"38","BB","Braunkohle",0.295906040268456
+"39","HB","Braunkohle",0
+"40","HH","Braunkohle",0
+"41","HE","Braunkohle",0.00522433927473878
+"42","MV","Braunkohle",0
+"43","NI","Braunkohle",0.0153203342618384
+"44","NW","Braunkohle",0.253945718274532
+"45","RP","Braunkohle",0
+"46","SL","Braunkohle",0
+"47","SN","Braunkohle",0.470108695652174
+"48","ST","Braunkohle",0.126788465771517
+"49","SH","Braunkohle",0
+"50","TH","Braunkohle",0
+"51","Summe","Braunkohle",0.107516414429488
+"52","BW","Deponiegas",0.00174546947995277
+"53","BY","Deponiegas",0.000322164948453608
+"54","BE","Deponiegas",0
+"55","BB","Deponiegas",0.00214765100671141
+"56","HB","Deponiegas",0.00125707102451289
+"57","HH","Deponiegas",0
+"58","HE","Deponiegas",0.00368776889981561
+"59","MV","Deponiegas",0.00230017251293847
+"60","NI","Deponiegas",0.000739902506963788
+"61","NW","Deponiegas",0.00125411135562339
+"62","RP","Deponiegas",0.00128388017118402
+"63","SL","Deponiegas",0
+"64","SN","Deponiegas",0.00130434782608696
+"65","ST","Deponiegas",0.00176095091349329
+"66","SH","Deponiegas",0.00105552037154317
+"67","TH","Deponiegas",0.00100381449508131
+"68","Summe","Deponiegas",0.00120668238395822
+"69","BW","Erdgas",0.0539555418655989
+"70","BY","Erdgas",0.160652920962199
+"71","BE","Erdgas",0.42879684418146
+"72","BB","Erdgas",0.0567785234899329
+"73","HB","Erdgas",0.106851037083595
+"74","HH","Erdgas",0.112107623318386
+"75","HE","Erdgas",0.248924400737554
+"76","MV","Erdgas",0.0609545715928695
+"77","NI","Erdgas",0.176444986072423
+"78","NW","Erdgas",0.187170204207189
+"79","RP","Erdgas",0.26904422253923
+"80","SL","Erdgas",0.035625
+"81","SN","Erdgas",0.0698913043478261
+"82","ST","Erdgas",0.085956416464891
+"83","SH","Erdgas",0.00327211315178383
+"84","TH","Erdgas",0.0967677173258382
+"85","Summe","Erdgas",0.141491114660177
+"86","BW","Geothermie",5.13373376456697e-05
+"87","BY","Geothermie",0.000823310423825888
+"88","BE","Geothermie",0
+"89","BB","Geothermie",0
+"90","HB","Geothermie",0
+"91","HH","Geothermie",0
+"92","HE","Geothermie",0
+"93","MV","Geothermie",0
+"94","NI","Geothermie",0
+"95","NW","Geothermie",0
+"96","RP","Geothermie",0.00114122681883024
+"97","SL","Geothermie",0
+"98","SN","Geothermie",0
+"99","ST","Geothermie",0
+"100","SH","Geothermie",0
+"101","TH","Geothermie",0
+"102","Summe","Geothermie",0.000162243009607828
+"103","BW","Grubengas",0
+"104","BY","Grubengas",0
+"105","BE","Grubengas",0
+"106","BB","Grubengas",0
+"107","HB","Grubengas",0
+"108","HH","Grubengas",0
+"109","HE","Grubengas",0
+"110","MV","Grubengas",0
+"111","NI","Grubengas",0
+"112","NW","Grubengas",0.00482714559522964
+"113","RP","Grubengas",0
+"114","SL","Grubengas",0.0175
+"115","SN","Grubengas",0
+"116","ST","Grubengas",0
+"117","SH","Grubengas",0
+"118","TH","Grubengas",0
+"119","Summe","Grubengas",0.0013182244530636
+"120","BW","Kernenergie",0.139226859695056
+"121","BY","Kernenergie",0.188180126002291
+"122","BE","Kernenergie",0
+"123","BB","Kernenergie",0
+"124","HB","Kernenergie",0
+"125","HH","Kernenergie",0
+"126","HE","Kernenergie",0
+"127","MV","Kernenergie",0
+"128","NI","Kernenergie",0.117035167130919
+"129","NW","Kernenergie",0
+"130","RP","Kernenergie",0
+"131","SL","Kernenergie",0
+"132","SN","Kernenergie",0
+"133","ST","Kernenergie",0
+"134","SH","Kernenergie",0.148828372387587
+"135","TH","Kernenergie",0
+"136","Summe","Kernenergie",0.0611858949983522
+"137","BW","Klärgas",0
+"138","BY","Klärgas",0.000966494845360825
+"139","BE","Klärgas",0
+"140","BB","Klärgas",0
+"141","HB","Klärgas",0
+"142","HH","Klärgas",0
+"143","HE","Klärgas",0.00107559926244622
+"144","MV","Klärgas",0
+"145","NI","Klärgas",0.000652855153203343
+"146","NW","Klärgas",0.000473249568159769
+"147","RP","Klärgas",0.000285306704707561
+"148","SL","Klärgas",0
+"149","SN","Klärgas",0
+"150","ST","Klärgas",0
+"151","SH","Klärgas",0.000633312222925902
+"152","TH","Klärgas",0
+"153","Summe","Klärgas",0.000532359875275686
+"154","BW","Laufwasser",0.0406078340777247
+"155","BY","Laufwasser",0.0703035509736541
+"156","BE","Laufwasser",0
+"157","BB","Laufwasser",0.000335570469798658
+"158","HB","Laufwasser",0.00628535512256443
+"159","HH","Laufwasser",0
+"160","HE","Laufwasser",0.00968039336201598
+"161","MV","Laufwasser",0.000575043128234618
+"162","NI","Laufwasser",0.00204561281337047
+"163","NW","Laufwasser",0.00376233406687016
+"164","RP","Laufwasser",0.033095577746077
+"165","SL","Laufwasser",0.0034375
+"166","SN","Laufwasser",0.0146739130434783
+"167","ST","Laufwasser",0.00275148580233326
+"168","SH","Laufwasser",0.000422208148617268
+"169","TH","Laufwasser",0.00642441276852038
+"170","Summe","Laufwasser",0.0202753061069283
+"171","BW","Mehrere Energieträger
+(nicht erneuerbar)",0
+"172","BY","Mehrere Energieträger
+(nicht erneuerbar)",0
+"173","BE","Mehrere Energieträger
+(nicht erneuerbar)",0
+"174","BB","Mehrere Energieträger
+(nicht erneuerbar)",0
+"175","HB","Mehrere Energieträger
+(nicht erneuerbar)",0
+"176","HH","Mehrere Energieträger
+(nicht erneuerbar)",0
+"177","HE","Mehrere Energieträger
+(nicht erneuerbar)",0
+"178","MV","Mehrere Energieträger
+(nicht erneuerbar)",0
+"179","NI","Mehrere Energieträger
+(nicht erneuerbar)",0
+"180","NW","Mehrere Energieträger
+(nicht erneuerbar)",0.00283949740895861
+"181","RP","Mehrere Energieträger
+(nicht erneuerbar)",0
+"182","SL","Mehrere Energieträger
+(nicht erneuerbar)",0
+"183","SN","Mehrere Energieträger
+(nicht erneuerbar)",0
+"184","ST","Mehrere Energieträger
+(nicht erneuerbar)",0
+"185","SH","Mehrere Energieträger
+(nicht erneuerbar)",0
+"186","TH","Mehrere Energieträger
+(nicht erneuerbar)",0
+"187","Summe","Mehrere Energieträger
+(nicht erneuerbar)",0.000775724389687429
+"188","BW","Mineralölprodukte",0.0359361363519688
+"189","BY","Mineralölprodukte",0.0346864261168385
+"190","BE","Mineralölprodukte",0.128994082840237
+"191","BB","Mineralölprodukte",0.0224161073825503
+"192","HB","Mineralölprodukte",0.0553111250785669
+"193","HH","Mineralölprodukte",0.0284005979073244
+"194","HE","Mineralölprodukte",0.00384142593730793
+"195","MV","Mineralölprodukte",0
+"196","NI","Mineralölprodukte",0.00256789693593315
+"197","NW","Mineralölprodukte",0.0119258891176262
+"198","RP","Mineralölprodukte",0
+"199","SL","Mineralölprodukte",0
+"200","SN","Mineralölprodukte",0.00184782608695652
+"201","ST","Mineralölprodukte",0.0254237288135593
+"202","SH","Mineralölprodukte",0.0606924213637323
+"203","TH","Mineralölprodukte",0
+"204","Summe","Mineralölprodukte",0.0208685071108069
+"205","BW","Pumpspeicher",0.0961548334103393
+"206","BY","Pumpspeicher",0.0196878579610538
+"207","BE","Pumpspeicher",0
+"208","BB","Pumpspeicher",0
+"209","HB","Pumpspeicher",0
+"210","HH","Pumpspeicher",0
+"211","HE","Pumpspeicher",0.0957283343577136
+"212","MV","Pumpspeicher",0
+"213","NI","Pumpspeicher",0.00957520891364902
+"214","NW","Pumpspeicher",0.00688578121672464
+"215","RP","Pumpspeicher",0
+"216","SL","Pumpspeicher",0
+"217","SN","Pumpspeicher",0.117934782608696
+"218","ST","Pumpspeicher",0.00880475456746643
+"219","SH","Pumpspeicher",0.0125606924213637
+"220","TH","Pumpspeicher",0.302951214615539
+"221","Summe","Pumpspeicher",0.0468476690242604
+"222","BW","Solare Strahlungsenergie",0.270393757379742
+"223","BY","Solare Strahlungsenergie",0.386776918671249
+"224","BE","Solare Strahlungsenergie",0.0406311637080868
+"225","BB","Solare Strahlungsenergie",0.205637583892617
+"226","HB","Solare Strahlungsenergie",0.0257699560025141
+"227","HH","Solare Strahlungsenergie",0.038863976083707
+"228","HE","Solare Strahlungsenergie",0.274738783036263
+"229","MV","Solare Strahlungsenergie",0.272378761740464
+"230","NI","Solare Strahlungsenergie",0.156075905292479
+"231","NW","Solare Strahlungsenergie",0.100470883320319
+"232","RP","Solare Strahlungsenergie",0.265620542082739
+"233","SL","Solare Strahlungsenergie",0.134375
+"234","SN","Solare Strahlungsenergie",0.174239130434783
+"235","ST","Solare Strahlungsenergie",0.205480959718248
+"236","SH","Solare Strahlungsenergie",0.161072408697488
+"237","TH","Solare Strahlungsenergie",0.307167235494881
+"238","Summe","Solare Strahlungsenergie",0.198696985829087
+"239","BW","Sonstige Energieträger
+(nicht erneuerbar) ",0
+"240","BY","Sonstige Energieträger
+(nicht erneuerbar) ",0.00103808705612829
+"241","BE","Sonstige Energieträger
+(nicht erneuerbar) ",0
+"242","BB","Sonstige Energieträger
+(nicht erneuerbar) ",0.00838926174496644
+"243","HB","Sonstige Energieträger
+(nicht erneuerbar) ",0.0942803268384664
+"244","HH","Sonstige Energieträger
+(nicht erneuerbar) ",0
+"245","HE","Sonstige Energieträger
+(nicht erneuerbar) ",0.00737553779963122
+"246","MV","Sonstige Energieträger
+(nicht erneuerbar) ",0
+"247","NI","Sonstige Energieträger
+(nicht erneuerbar) ",0.0125783426183844
+"248","NW","Sonstige Energieträger
+(nicht erneuerbar) ",0.0345708809540711
+"249","RP","Sonstige Energieträger
+(nicht erneuerbar) ",0.0079885877318117
+"250","SL","Sonstige Energieträger
+(nicht erneuerbar) ",0.0265625
+"251","SN","Sonstige Energieträger
+(nicht erneuerbar) ",0
+"252","ST","Sonstige Energieträger
+(nicht erneuerbar) ",0.00473255558001321
+"253","SH","Sonstige Energieträger
+(nicht erneuerbar) ",0.00749419463795651
+"254","TH","Sonstige Energieträger
+(nicht erneuerbar) ",0
+"255","Summe","Sonstige Energieträger
+(nicht erneuerbar) ",0.0139528988262732
+"256","BW","Speicherwasser 
+(ohne Pumpspeicher)",0
+"257","BY","Speicherwasser 
+(ohne Pumpspeicher)",0.00608533791523482
+"258","BE","Speicherwasser 
+(ohne Pumpspeicher)",0
+"259","BB","Speicherwasser 
+(ohne Pumpspeicher)",0
+"260","HB","Speicherwasser 
+(ohne Pumpspeicher)",0
+"261","HH","Speicherwasser 
+(ohne Pumpspeicher)",0
+"262","HE","Speicherwasser 
+(ohne Pumpspeicher)",0.00307314074984634
+"263","MV","Speicherwasser 
+(ohne Pumpspeicher)",0
+"264","NI","Speicherwasser 
+(ohne Pumpspeicher)",0
+"265","NW","Speicherwasser 
+(ohne Pumpspeicher)",0.000354937176119827
+"266","RP","Speicherwasser 
+(ohne Pumpspeicher)",0
+"267","SL","Speicherwasser 
+(ohne Pumpspeicher)",0
+"268","SN","Speicherwasser 
+(ohne Pumpspeicher)",0
+"269","ST","Speicherwasser 
+(ohne Pumpspeicher)",0
+"270","SH","Speicherwasser 
+(ohne Pumpspeicher)",0
+"271","TH","Speicherwasser 
+(ohne Pumpspeicher)",0
+"272","Summe","Speicherwasser 
+(ohne Pumpspeicher)",0.00732628590260349
+"273","BW","Steinkohle",0.283638790492325
+"274","BY","Steinkohle",0.0303193012600229
+"275","BE","Steinkohle",0.306508875739645
+"276","BB","Steinkohle",0
+"277","HB","Steinkohle",0.563167818981772
+"278","HH","Steinkohle",0.717488789237668
+"279","HE","Steinkohle",0.115703749231715
+"280","MV","Steinkohle",0.0973739697143952
+"281","NI","Steinkohle",0.0958391364902507
+"282","NW","Steinkohle",0.27550223610421
+"283","RP","Steinkohle",0.00185449358059914
+"284","SL","Steinkohle",0.689375
+"285","SN","Steinkohle",0
+"286","ST","Steinkohle",0
+"287","SH","Steinkohle",0.0770529871226515
+"288","TH","Steinkohle",0
+"289","Summe","Steinkohle",0.137262656222273
+"290","BW","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"291","BY","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"292","BE","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"293","BB","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"294","HB","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"295","HH","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"296","HE","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"297","MV","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"298","NI","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"299","NW","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"300","RP","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"301","SL","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"302","SN","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"303","ST","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"304","SH","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"305","TH","Unbekannter Energieträger
+(nicht erneuerbar)",0
+"306","Summe","Unbekannter Energieträger
+(nicht erneuerbar)",0.000892336552843055
+"307","BW","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"308","BY","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"309","BE","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"310","BB","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"311","HB","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"312","HH","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"313","HE","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"314","MV","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"315","NI","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"316","NW","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"317","RP","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"318","SL","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"319","SN","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"320","ST","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"321","SH","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"322","TH","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0
+"323","Summe","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister",0.00804623925773823
+"324","BW","Windenergie 
+(Onshore-Anlage)",0.0323938600544176
+"325","BY","Windenergie 
+(Onshore-Anlage)",0.0461411798396335
+"326","BE","Windenergie 
+(Onshore-Anlage)",0.00276134122287968
+"327","BB","Windenergie 
+(Onshore-Anlage)",0.371610738255034
+"328","HB","Windenergie 
+(Onshore-Anlage)",0.0873664362036455
+"329","HH","Windenergie 
+(Onshore-Anlage)",0.0478325859491779
+"330","HE","Windenergie 
+(Onshore-Anlage)",0.176244622003688
+"331","MV","Windenergie 
+(Onshore-Anlage)",0.499712478435883
+"332","NI","Windenergie 
+(Onshore-Anlage)",0.352759401114206
+"333","NW","Windenergie 
+(Onshore-Anlage)",0.0871962329334375
+"334","RP","Windenergie 
+(Onshore-Anlage)",0.381455064194009
+"335","SL","Windenergie 
+(Onshore-Anlage)",0.078125
+"336","SN","Windenergie 
+(Onshore-Anlage)",0.117608695652174
+"337","ST","Windenergie 
+(Onshore-Anlage)",0.472595201408761
+"338","SH","Windenergie 
+(Onshore-Anlage)",0.489128140173105
+"339","TH","Windenergie 
+(Onshore-Anlage)",0.234290303151978
+"340","Summe","Windenergie 
+(Onshore-Anlage)",0.189185489390828

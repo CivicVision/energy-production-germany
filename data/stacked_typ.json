@@ -1,0 +1,175 @@
+{
+  "width": 500,
+  "height": 200,
+  "padding": {"top": 10, "left": 30, "bottom": 30, "right": 10},
+  "signals": [
+    {
+      "name": "tooltip",
+      "init": {},
+      "streams": [
+        {"type": "rect:mouseover", "expr": "datum"},
+        {"type": "rect:mouseout", "expr": "{}"}
+      ]
+    },
+    {
+      "name": "mousepositionY",
+      "init": 0,
+      "streams": [
+        {"type": "mousemove", "expr": "eventY()"}
+      ]
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "format": { "type": "csv","parse": {"prozent":"number"} },
+      "url": "data/percentage_type_melt.csv"
+    }
+  ],
+  "predicates": [
+    {
+      "name": "tooltip", "type": "==",
+      "operands": [{"signal": "tooltip._id"}, {"arg": "id"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "ordinal",
+      "range": "width",
+      "domain": {"data": "table", "field": "typ"}
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "range": "height",
+      "nice": true,
+      "domain": [0,1]
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "range": "category20",
+      "domain": {"data": "table", "field": "bundesland"}
+    }
+  ],
+  "axes": [
+    {
+      "type": "y",
+      "scale": "y",
+      "ticks": 4,
+      "properties": {
+        "labels": {"text": {"template": "{{datum.data|number:'.0%'}}"}}
+      }
+    },
+    {
+      "type": "x",
+      "scale": "x",
+      "properties": {
+        "labels": {"text": {"template": "{{datum.data|truncate:5}}"}}
+      }
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {
+        "data": "table",
+        "transform": [
+          {"type": "stack", "groupby": ["typ"], "sortby": ["bundesland"], "field": "prozent"}
+        ]
+      },
+      "properties": {
+        "enter": {
+          "x": {"scale": "x", "field": "typ"},
+          "width": {"scale": "x", "band": true, "offset": -1},
+          "y": {"scale": "y", "field": "layout_start"},
+          "y2": {"scale": "y", "field": "layout_end"},
+          "fill": {"scale": "color", "field": "bundesland"}
+        },
+        "update": {
+          "fillOpacity": {"value": 1}
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.5}
+        }
+      }
+    },
+    {
+      "type": "group",
+      "from": {"data": "tooltip"},
+      "properties": {
+        "update": {
+          "x": {"scale": "x", "signal": "tooltip.typ", "offset": 20},
+          "y": {"signal": "mousepositionY", "offset": 5},
+          "width": {"value": 200},
+          "height": {"value": 35},
+          "fill": {"value": "#fff"},
+          "stroke": {"value": "#aaa"},
+          "strokeWidth": {"value": 0.5},
+          "opacity": {
+            "rule": [
+              {
+                "predicate": {
+                  "name": "tooltip",
+                  "id": {"value": null}
+                },
+                "value": 0
+              },
+              {"value": 1}
+
+            ]
+          }
+        }
+      },
+      "marks": [
+        {
+        "type": "text",
+        "properties": {
+          "update": {
+            "x": {"value": 6},
+            "y": {"value": 14},
+            "text": {
+              "rule": [
+                {
+                  "predicate": {
+                    "name": "tooltip",
+                    "id": {"value": null}
+                  },
+                  "template": ""
+                },
+                {"template": "{{tooltip.bundesland}}: {{tooltip.prozent|number:'.1%'}}"}
+              ]
+            },
+            "fill": {"value": "black"},
+            "fontWeight": {"value": "bold"}
+          }
+        }
+      },
+        {
+        "type": "text",
+        "properties": {
+          "update": {
+            "x": {"value": 6},
+            "y": {"value": 24},
+            "text": {
+              "rule": [
+                {
+                  "predicate": {
+                    "name": "tooltip",
+                    "id": {"value": null}
+                  },
+                  "template": ""
+                },
+                {"template": "{{tooltip.typ}}"}
+              ]
+            },
+            "fill": {"value": "black"},
+            "fontWeight": {"value": "bold"}
+          }
+        }
+      }
+      ]
+    }
+  ]
+}

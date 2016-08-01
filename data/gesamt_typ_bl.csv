@@ -1,0 +1,449 @@
+"","Typ","BL","Produktionsvolumen"
+"1","Abfall","BW",98
+"2","Biomasse","BW",796
+"3","Braunkohle","BW",0
+"4","Deponiegas","BW",34
+"5","Erdgas","BW",1051
+"6","Geothermie","BW",1
+"7","Grubengas","BW",0
+"8","Kernenergie","BW",2712
+"9","Klärgas","BW",0
+"10","Laufwasser","BW",791
+"11","Mehrere Energieträger
+(nicht erneuerbar)","BW",0
+"12","Mineralölprodukte","BW",700
+"13","Pumpspeicher","BW",1873
+"14","Solare Strahlungsenergie","BW",5267
+"15","Sonstige Energieträger
+(nicht erneuerbar) ","BW",0
+"16","Speicherwasser 
+(ohne Pumpspeicher)","BW",0
+"17","Steinkohle","BW",5525
+"18","Unbekannter Energieträger
+(nicht erneuerbar)","BW",0
+"19","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","BW",0
+"20","Windenergie 
+(Onshore-Anlage)","BW",631
+"21","Summe","BW",19479
+"22","Abfall","BY",214
+"23","Biomasse","BY",1295
+"24","Braunkohle","BY",0
+"25","Deponiegas","BY",9
+"26","Erdgas","BY",4488
+"27","Geothermie","BY",23
+"28","Grubengas","BY",0
+"29","Kernenergie","BY",5257
+"30","Klärgas","BY",27
+"31","Laufwasser","BY",1964
+"32","Mehrere Energieträger
+(nicht erneuerbar)","BY",0
+"33","Mineralölprodukte","BY",969
+"34","Pumpspeicher","BY",550
+"35","Solare Strahlungsenergie","BY",10805
+"36","Sonstige Energieträger
+(nicht erneuerbar) ","BY",29
+"37","Speicherwasser 
+(ohne Pumpspeicher)","BY",170
+"38","Steinkohle","BY",847
+"39","Unbekannter Energieträger
+(nicht erneuerbar)","BY",0
+"40","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","BY",0
+"41","Windenergie 
+(Onshore-Anlage)","BY",1289
+"42","Summe","BY",27936
+"43","Abfall","BE",36
+"44","Biomasse","BE",34
+"45","Braunkohle","BE",164
+"46","Deponiegas","BE",0
+"47","Erdgas","BE",1087
+"48","Geothermie","BE",0
+"49","Grubengas","BE",0
+"50","Kernenergie","BE",0
+"51","Klärgas","BE",0
+"52","Laufwasser","BE",0
+"53","Mehrere Energieträger
+(nicht erneuerbar)","BE",0
+"54","Mineralölprodukte","BE",327
+"55","Pumpspeicher","BE",0
+"56","Solare Strahlungsenergie","BE",103
+"57","Sonstige Energieträger
+(nicht erneuerbar) ","BE",0
+"58","Speicherwasser 
+(ohne Pumpspeicher)","BE",0
+"59","Steinkohle","BE",777
+"60","Unbekannter Energieträger
+(nicht erneuerbar)","BE",0
+"61","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","BE",0
+"62","Windenergie 
+(Onshore-Anlage)","BE",7
+"63","Summe","BE",2535
+"64","Abfall","BB",118
+"65","Biomasse","BB",430
+"66","Braunkohle","BB",4409
+"67","Deponiegas","BB",32
+"68","Erdgas","BB",846
+"69","Geothermie","BB",0
+"70","Grubengas","BB",0
+"71","Kernenergie","BB",0
+"72","Klärgas","BB",0
+"73","Laufwasser","BB",5
+"74","Mehrere Energieträger
+(nicht erneuerbar)","BB",0
+"75","Mineralölprodukte","BB",334
+"76","Pumpspeicher","BB",0
+"77","Solare Strahlungsenergie","BB",3064
+"78","Sonstige Energieträger
+(nicht erneuerbar) ","BB",125
+"79","Speicherwasser 
+(ohne Pumpspeicher)","BB",0
+"80","Steinkohle","BB",0
+"81","Unbekannter Energieträger
+(nicht erneuerbar)","BB",0
+"82","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","BB",0
+"83","Windenergie 
+(Onshore-Anlage)","BB",5537
+"84","Summe","BB",14899
+"85","Abfall","HB",91
+"86","Biomasse","HB",4
+"87","Braunkohle","HB",0
+"88","Deponiegas","HB",2
+"89","Erdgas","HB",170
+"90","Geothermie","HB",0
+"91","Grubengas","HB",0
+"92","Kernenergie","HB",0
+"93","Klärgas","HB",0
+"94","Laufwasser","HB",10
+"95","Mehrere Energieträger
+(nicht erneuerbar)","HB",0
+"96","Mineralölprodukte","HB",88
+"97","Pumpspeicher","HB",0
+"98","Solare Strahlungsenergie","HB",41
+"99","Sonstige Energieträger
+(nicht erneuerbar) ","HB",150
+"100","Speicherwasser 
+(ohne Pumpspeicher)","HB",0
+"101","Steinkohle","HB",896
+"102","Unbekannter Energieträger
+(nicht erneuerbar)","HB",0
+"103","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","HB",0
+"104","Windenergie 
+(Onshore-Anlage)","HB",139
+"105","Summe","HB",1590
+"106","Abfall","HH",24
+"107","Biomasse","HH",50
+"108","Braunkohle","HH",0
+"109","Deponiegas","HH",0
+"110","Erdgas","HH",150
+"111","Geothermie","HH",0
+"112","Grubengas","HH",0
+"113","Kernenergie","HH",0
+"114","Klärgas","HH",0
+"115","Laufwasser","HH",0
+"116","Mehrere Energieträger
+(nicht erneuerbar)","HH",0
+"117","Mineralölprodukte","HH",38
+"118","Pumpspeicher","HH",0
+"119","Solare Strahlungsenergie","HH",52
+"120","Sonstige Energieträger
+(nicht erneuerbar) ","HH",0
+"121","Speicherwasser 
+(ohne Pumpspeicher)","HH",0
+"122","Steinkohle","HH",960
+"123","Unbekannter Energieträger
+(nicht erneuerbar)","HH",0
+"124","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","HH",0
+"125","Windenergie 
+(Onshore-Anlage)","HH",64
+"126","Summe","HH",1337
+"127","Abfall","HE",98
+"128","Biomasse","HE",258
+"129","Braunkohle","HE",34
+"130","Deponiegas","HE",24
+"131","Erdgas","HE",1620
+"132","Geothermie","HE",0
+"133","Grubengas","HE",0
+"134","Kernenergie","HE",0
+"135","Klärgas","HE",7
+"136","Laufwasser","HE",63
+"137","Mehrere Energieträger
+(nicht erneuerbar)","HE",0
+"138","Mineralölprodukte","HE",25
+"139","Pumpspeicher","HE",623
+"140","Solare Strahlungsenergie","HE",1788
+"141","Sonstige Energieträger
+(nicht erneuerbar) ","HE",48
+"142","Speicherwasser 
+(ohne Pumpspeicher)","HE",20
+"143","Steinkohle","HE",753
+"144","Unbekannter Energieträger
+(nicht erneuerbar)","HE",0
+"145","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","HE",0
+"146","Windenergie 
+(Onshore-Anlage)","HE",1147
+"147","Summe","HE",6508
+"148","Abfall","MV",17
+"149","Biomasse","MV",331
+"150","Braunkohle","MV",0
+"151","Deponiegas","MV",12
+"152","Erdgas","MV",318
+"153","Geothermie","MV",0
+"154","Grubengas","MV",0
+"155","Kernenergie","MV",0
+"156","Klärgas","MV",0
+"157","Laufwasser","MV",3
+"158","Mehrere Energieträger
+(nicht erneuerbar)","MV",0
+"159","Mineralölprodukte","MV",0
+"160","Pumpspeicher","MV",0
+"161","Solare Strahlungsenergie","MV",1421
+"162","Sonstige Energieträger
+(nicht erneuerbar) ","MV",0
+"163","Speicherwasser 
+(ohne Pumpspeicher)","MV",0
+"164","Steinkohle","MV",508
+"165","Unbekannter Energieträger
+(nicht erneuerbar)","MV",0
+"166","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","MV",0
+"167","Windenergie 
+(Onshore-Anlage)","MV",2607
+"168","Summe","MV",5217
+"169","Abfall","NI",75
+"170","Biomasse","NI",1266
+"171","Braunkohle","NI",352
+"172","Deponiegas","NI",17
+"173","Erdgas","NI",4054
+"174","Geothermie","NI",0
+"175","Grubengas","NI",0
+"176","Kernenergie","NI",2689
+"177","Klärgas","NI",15
+"178","Laufwasser","NI",47
+"179","Mehrere Energieträger
+(nicht erneuerbar)","NI",0
+"180","Mineralölprodukte","NI",59
+"181","Pumpspeicher","NI",220
+"182","Solare Strahlungsenergie","NI",3586
+"183","Sonstige Energieträger
+(nicht erneuerbar) ","NI",289
+"184","Speicherwasser 
+(ohne Pumpspeicher)","NI",0
+"185","Steinkohle","NI",2202
+"186","Unbekannter Energieträger
+(nicht erneuerbar)","NI",0
+"187","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","NI",0
+"188","Windenergie 
+(Onshore-Anlage)","NI",8105
+"189","Summe","NI",22976
+"190","Abfall","NW",498
+"191","Biomasse","NW",720
+"192","Braunkohle","NW",10732
+"193","Deponiegas","NW",53
+"194","Erdgas","NW",7910
+"195","Geothermie","NW",0
+"196","Grubengas","NW",204
+"197","Kernenergie","NW",0
+"198","Klärgas","NW",20
+"199","Laufwasser","NW",159
+"200","Mehrere Energieträger
+(nicht erneuerbar)","NW",120
+"201","Mineralölprodukte","NW",504
+"202","Pumpspeicher","NW",291
+"203","Solare Strahlungsenergie","NW",4246
+"204","Sonstige Energieträger
+(nicht erneuerbar) ","NW",1461
+"205","Speicherwasser 
+(ohne Pumpspeicher)","NW",15
+"206","Steinkohle","NW",11643
+"207","Unbekannter Energieträger
+(nicht erneuerbar)","NW",0
+"208","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","NW",0
+"209","Windenergie 
+(Onshore-Anlage)","NW",3685
+"210","Summe","NW",42262
+"211","Abfall","RP",103
+"212","Biomasse","RP",165
+"213","Braunkohle","RP",0
+"214","Deponiegas","RP",9
+"215","Erdgas","RP",1886
+"216","Geothermie","RP",8
+"217","Grubengas","RP",0
+"218","Kernenergie","RP",0
+"219","Klärgas","RP",2
+"220","Laufwasser","RP",232
+"221","Mehrere Energieträger
+(nicht erneuerbar)","RP",0
+"222","Mineralölprodukte","RP",0
+"223","Pumpspeicher","RP",0
+"224","Solare Strahlungsenergie","RP",1862
+"225","Sonstige Energieträger
+(nicht erneuerbar) ","RP",56
+"226","Speicherwasser 
+(ohne Pumpspeicher)","RP",0
+"227","Steinkohle","RP",13
+"228","Unbekannter Energieträger
+(nicht erneuerbar)","RP",0
+"229","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","RP",0
+"230","Windenergie 
+(Onshore-Anlage)","RP",2674
+"231","Summe","RP",7010
+"232","Abfall","SL",28
+"233","Biomasse","SL",20
+"234","Braunkohle","SL",0
+"235","Deponiegas","SL",0
+"236","Erdgas","SL",114
+"237","Geothermie","SL",0
+"238","Grubengas","SL",56
+"239","Kernenergie","SL",0
+"240","Klärgas","SL",0
+"241","Laufwasser","SL",11
+"242","Mehrere Energieträger
+(nicht erneuerbar)","SL",0
+"243","Mineralölprodukte","SL",0
+"244","Pumpspeicher","SL",0
+"245","Solare Strahlungsenergie","SL",430
+"246","Sonstige Energieträger
+(nicht erneuerbar) ","SL",85
+"247","Speicherwasser 
+(ohne Pumpspeicher)","SL",0
+"248","Steinkohle","SL",2206
+"249","Unbekannter Energieträger
+(nicht erneuerbar)","SL",0
+"250","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","SL",0
+"251","Windenergie 
+(Onshore-Anlage)","SL",250
+"252","Summe","SL",3198
+"253","Abfall","SN",16
+"254","Biomasse","SN",282
+"255","Braunkohle","SN",4325
+"256","Deponiegas","SN",12
+"257","Erdgas","SN",643
+"258","Geothermie","SN",0
+"259","Grubengas","SN",0
+"260","Kernenergie","SN",0
+"261","Klärgas","SN",0
+"262","Laufwasser","SN",135
+"263","Mehrere Energieträger
+(nicht erneuerbar)","SN",0
+"264","Mineralölprodukte","SN",17
+"265","Pumpspeicher","SN",1085
+"266","Solare Strahlungsenergie","SN",1603
+"267","Sonstige Energieträger
+(nicht erneuerbar) ","SN",0
+"268","Speicherwasser 
+(ohne Pumpspeicher)","SN",0
+"269","Steinkohle","SN",0
+"270","Unbekannter Energieträger
+(nicht erneuerbar)","SN",0
+"271","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","SN",0
+"272","Windenergie 
+(Onshore-Anlage)","SN",1082
+"273","Summe","SN",9199
+"274","Abfall","ST",185
+"275","Biomasse","ST",412
+"276","Braunkohle","ST",1152
+"277","Deponiegas","ST",16
+"278","Erdgas","ST",781
+"279","Geothermie","ST",0
+"280","Grubengas","ST",0
+"281","Kernenergie","ST",0
+"282","Klärgas","ST",0
+"283","Laufwasser","ST",25
+"284","Mehrere Energieträger
+(nicht erneuerbar)","ST",0
+"285","Mineralölprodukte","ST",231
+"286","Pumpspeicher","ST",80
+"287","Solare Strahlungsenergie","ST",1867
+"288","Sonstige Energieträger
+(nicht erneuerbar) ","ST",43
+"289","Speicherwasser 
+(ohne Pumpspeicher)","ST",0
+"290","Steinkohle","ST",0
+"291","Unbekannter Energieträger
+(nicht erneuerbar)","ST",0
+"292","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","ST",0
+"293","Windenergie 
+(Onshore-Anlage)","ST",4294
+"294","Summe","ST",9086
+"295","Abfall","SH",16
+"296","Biomasse","SH",342
+"297","Braunkohle","SH",0
+"298","Deponiegas","SH",10
+"299","Erdgas","SH",31
+"300","Geothermie","SH",0
+"301","Grubengas","SH",0
+"302","Kernenergie","SH",1410
+"303","Klärgas","SH",6
+"304","Laufwasser","SH",4
+"305","Mehrere Energieträger
+(nicht erneuerbar)","SH",0
+"306","Mineralölprodukte","SH",575
+"307","Pumpspeicher","SH",119
+"308","Solare Strahlungsenergie","SH",1526
+"309","Sonstige Energieträger
+(nicht erneuerbar) ","SH",71
+"310","Speicherwasser 
+(ohne Pumpspeicher)","SH",0
+"311","Steinkohle","SH",730
+"312","Unbekannter Energieträger
+(nicht erneuerbar)","SH",0
+"313","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","SH",0
+"314","Windenergie 
+(Onshore-Anlage)","SH",4634
+"315","Summe","SH",9473
+"316","Abfall","TH",11
+"317","Biomasse","TH",245
+"318","Braunkohle","TH",0
+"319","Deponiegas","TH",5
+"320","Erdgas","TH",482
+"321","Geothermie","TH",0
+"322","Grubengas","TH",0
+"323","Kernenergie","TH",0
+"324","Klärgas","TH",0
+"325","Laufwasser","TH",32
+"326","Mehrere Energieträger
+(nicht erneuerbar)","TH",0
+"327","Mineralölprodukte","TH",0
+"328","Pumpspeicher","TH",1509
+"329","Solare Strahlungsenergie","TH",1530
+"330","Sonstige Energieträger
+(nicht erneuerbar) ","TH",0
+"331","Speicherwasser 
+(ohne Pumpspeicher)","TH",0
+"332","Steinkohle","TH",0
+"333","Unbekannter Energieträger
+(nicht erneuerbar)","TH",0
+"334","Windenergie 
+(Offshore-Anlage)
+Quelle: Anlagenregister","TH",0
+"335","Windenergie 
+(Onshore-Anlage)","TH",1167
+"336","Summe","TH",4981
