@@ -14,7 +14,12 @@
     "feature"
 
   mapTooltipHtml = d3.select("#map-popup").html()
-  mapTooltip = _.template(mapTooltipHtml)
+  mapTooltip = Handlebars.compile(mapTooltipHtml)
+
+  templateData = (d) ->
+    {}
+
+  tooltipElement = "#map-tooltip"
 
   chart = (selection) ->
     selection.each (data,i) =>
@@ -23,11 +28,22 @@
 
       svg = this.append('svg').attr('width', width).attr('height', height).append('g')
 
-      svg
+      country = svg.selectAll('path.country').data(topojson.feature(data, data.objects.deu).features).enter()
         .append('path')
-        .datum(topojson.feature(data, data.objects.deu))
         .attr('class', 'country')
         .attr('d', path)
+
+      country.on("mouseover", (d) ->
+        data = templateData(d)
+        d3.select(tooltipElement).html(mapTooltip(data)).style("opacity", 1)
+        d3.select(this).classed("active", true)
+      ).on("mouseout", (d) ->
+        d3.select(this).classed("active", false)
+        d3.select(tooltipElement).style("opacity", 0)
+      ).on("mousemove", (d) ->
+        d3.select(tooltipElement).style("left", (d3.event.pageX + 14) + "px")
+        .style("top", (d3.event.pageY - 32) + "px")
+      )
 
       if overlayFeatures.length > 0
         featurePath = d3.geo.path().projection(projection).pointRadius(overlayFeatureRadius)
@@ -91,5 +107,15 @@
     unless arguments.length
       return featureClass
     featureClass = value
+    chart
+  chart.templateData = (value) ->
+    unless arguments.length
+      return templateData
+    templateData = value
+    chart
+  chart.tooltipElement = (value) ->
+    unless arguments.length
+      return tooltipElement
+    tooltipElement = value
     chart
   chart

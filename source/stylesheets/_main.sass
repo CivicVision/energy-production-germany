@@ -21,9 +21,12 @@ body
   .country
     fill: #dedede
     stroke: #fff
+    &.active
+      fill: #ccc
   .features
     fill-opacity: 0.6
     stroke: none
+    pointer-events: none
 
 #overall-production
   @include span-columns(12)
@@ -38,3 +41,7 @@ body
     margin-top: 2em
     .count,.prozent
       font-weight: bold
+#map-tooltip
+  position: absolute
+  background: #fff
+  border: 1px solid #000
